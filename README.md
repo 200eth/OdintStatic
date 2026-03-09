@@ -1,0 +1,2 @@
+# OdintStatic
+Static Site
