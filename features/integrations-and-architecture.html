@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Integrations and Architecture</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/main.css">
+  <link rel="stylesheet" href="/styles/navigation.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  <div class="overlay" aria-hidden="true"></div>
+  <header class="header" role="banner">
+  <div class="header-container">
+    <div class="header-content">
+      <a href="/index.html" class="logo" aria-label="Lucent by Odint Technologies - Home">
+        <img src="/images/lucent-logo-v3.png" alt="Lucent logo" class="logo-icon" />
+        Lucent
+      </a>
+      <nav class="nav" role="navigation" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="/platform.html" class="nav-link">Platform</a></li>
+          <li><a href="/modules.html" class="nav-link">Modules</a></li>
+          <li class="dropdown">
+            <button class="dropdown-trigger" aria-expanded="false" aria-haspopup="true">
+              Features
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </button>
+            <div class="dropdown-menu" role="menu">
+              <ul class="dropdown-list">
+                <li class="dropdown-item"><a href="/features/digital-risk-protection.html" class="dropdown-link"><strong>Digital Risk Protection</strong><small>Monitor and protect against digital threats</small></a></li>
+                <li class="dropdown-item"><a href="/features/technology-and-ai.html" class="dropdown-link"><strong>AI Technology</strong><small>Advanced threat detection and analysis</small></a></li>
+                <li class="dropdown-item"><a href="/features/soc-workflows.html" class="dropdown-link"><strong>SOC Workflows</strong><small>Streamlined security operations</small></a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="dropdown">
+            <button class="dropdown-trigger" aria-expanded="false" aria-haspopup="true">
+              Solutions
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </button>
+            <div class="dropdown-menu" role="menu">
+              <ul class="dropdown-list">
+                <li class="dropdown-item"><a href="/solutions/business-continuity-resilience.html" class="dropdown-link"><strong>Business Continuity</strong><small>Ensure operational resilience</small></a></li>
+                <li class="dropdown-item"><a href="/solutions/enterprise-regulatory-compliance.html" class="dropdown-link"><strong>Regulatory Compliance</strong><small>Meet industry standards</small></a></li>
+                <li class="dropdown-item"><a href="/solutions/ransomware-preparedness.html" class="dropdown-link"><strong>Ransomware Defense</strong><small>Protect against ransomware</small></a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="dropdown">
+            <button class="dropdown-trigger" aria-expanded="false" aria-haspopup="true">
+              Industries
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </button>
+            <div class="dropdown-menu" role="menu">
+              <ul class="dropdown-list">
+                <li class="dropdown-item"><a href="/industries/financial-services.html" class="dropdown-link"><strong>Financial Services</strong><small>Banking and finance security</small></a></li>
+                <li class="dropdown-item"><a href="/industries/government-public-sector.html" class="dropdown-link"><strong>Government</strong><small>Public sector cybersecurity</small></a></li>
+                <li class="dropdown-item"><a href="/industries/healthcare.html" class="dropdown-link"><strong>Healthcare</strong><small>Medical data protection</small></a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="/company/about-us.html" class="nav-link">Company</a></li>
+        </ul>
+      </nav>
+      <button class="mobile-menu-toggle" aria-label="Toggle mobile menu" aria-expanded="false">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+  <main id="main-content" role="main">
+    <div class="min-h-screen bg-white">
+      <section class="relative h-48vh md:h-56vh bg-gradient-to-r from-purple-900 to-purple-700 flex items-center">
+        <div class="absolute inset-0">
+          <img alt="" class="w-full h-full object-cover opacity-25 mix-blend-overlay" loading="eager" referrerpolicy="no-referrer" crossorigin="anonymous" src="https://images.unsplash.com/photo-1556157382-97eda2d62296?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=2070&amp;q=80" onerror="this.onerror=null;this.src='/images/globe.svg';">
+        </div>
+        <div class="relative z-10 w-full">
+          <div class="max-w-7xl mx-auto px-4">
+            <h1 class="text-4xl md:text-6xl font-bold text-white mb-4">Integrations and Architecture</h1>
+            <p class="text-lg md:text-2xl text-blue-100 max-w-3xl">Open ecosystem integrations and cloud-native multi-tenant architecture that amplify your existing security stack.</p>
+          </div>
+        </div>
+      </section>
+      <div class="max-w-7xl mx-auto px-4 py-8">
+        <nav aria-label="Breadcrumb" class="w-full">
+          <ol class="flex flex-wrap items-center text-sm text-gray-600 gap-2">
+            <li class="flex items-center"><a href="/index.html" class="hover:text-blue-600">Home</a><span class="mx-2 text-gray-400">/</span></li>
+            <li class="flex items-center"><a href="/features/" class="hover:text-blue-600">Features</a><span class="mx-2 text-gray-400">/</span></li>
+            <li class="flex items-center"><span class="text-gray-900 font-medium">Integrations and Architecture</span></li>
+          </ol>
+        </nav>
+      </div>
+      <div class="max-w-7xl mx-auto px-4 py-12">
+        <div class="space-y-12">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            <div>
+              <div class="overflow-hidden rounded-xl border border-gray-200 bg-gray-50">
+                <img alt="Open Ecosystem" width="800" height="600" class="w-full md:w-3/5 h-auto object-cover mx-auto" sizes="(max-width: 768px) 100vw, 50vw" loading="eager" referrerpolicy="no-referrer" crossorigin="anonymous" src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=1600&amp;q=80" onerror="this.onerror=null;this.src='/images/globe.svg';">
+              </div>
+            </div>
+            <div>
+              <h2 class="text-2xl font-bold text-gray-900 mb-4">Open Ecosystem</h2>
+              <p class="text-gray-700 leading-relaxed">Use STIX/TAXII and REST APIs to enrich SIEM, SOAR, EDR, and XDR. Export CSVs for bespoke analytics and reporting. Send early warnings to email for fast stakeholder awareness. Keep your tools—LUCENT makes them smarter.</p>
+            </div>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            <div class="md:order-last">
+              <div class="overflow-hidden rounded-xl border border-gray-200 bg-gray-50">
+                <img alt="Cloud-Native, Multi-Tenant" width="800" height="600" class="w-full md:w-3/5 h-auto object-cover mx-auto" sizes="(max-width: 768px) 100vw, 50vw" loading="eager" referrerpolicy="no-referrer" crossorigin="anonymous" src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=1600&amp;q=80" onerror="this.onerror=null;this.src='/images/globe.svg';">
+              </div>
+            </div>
+            <div>
+              <h2 class="text-2xl font-bold text-gray-900 mb-4">Cloud-Native, Multi-Tenant</h2>
+              <p class="text-gray-700 leading-relaxed">Deploy quickly with minimal setup to realize value fast. Operate secure, isolated accounts within one operational pane. Scale customers, teams, and data sources without complexity. Designed for enterprise SOCs and MSSPs in Malaysia.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-gradient-to-r from-purple-900 to-purple-700 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+          <h3 class="text-2xl font-bold mb-3">Build on Lucent</h3>
+          <p class="text-purple-100 mb-6">Integrate with your existing stack.</p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="/contact-us.html" class="bg-white text-purple-900 px-6 py-3 rounded-lg font-semibold">Discuss architecture</a>
+            <a href="/about-us.html" class="border-2 border-white text-white px-6 py-3 rounded-lg font-semibold">Get started</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </main>
+  <script src="https://unpkg.com/lucide@latest/dist/lucide.min.js"></script>
+  <script>try{lucide.createIcons();}catch(e){}</script>
+  <script src="/js/navigation.js"></script>
+</body>
+</html>
